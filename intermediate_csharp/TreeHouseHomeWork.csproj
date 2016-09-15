@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{751E5121-BCF8-4980-985C-83343203E993}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TreeHouseHomeWork</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".DS_Store" />
+    <None Include="stage_1\.DS_Store" />
+    <None Include="stage_1\starting_code\.DS_Store" />
+    <None Include="stage_1\video_3_solution\.DS_Store" />
+    <None Include="stage_1\video_3_solution\bin\Debug\ConsoleApplication.vshost.exe.manifest" />
+    <None Include="stage_1\video_3_solution\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="stage_1\video_5_solution\.DS_Store" />
+    <None Include="stage_1\video_6_solution\.DS_Store" />
+    <None Include="stage_2\.DS_Store" />
+    <None Include="stage_2\video_2_solution\.DS_Store" />
+    <None Include="stage_2\video_3_solution\.DS_Store" />
+    <None Include="stage_2\video_4_solution\.DS_Store" />
+    <None Include="stage_2\video_5_solution\.DS_Store" />
+    <None Include="stage_3\.DS_Store" />
+    <None Include="stage_3\video_2_solution\.DS_Store" />
+    <None Include="stage_3\video_3_solution\.DS_Store" />
+    <None Include="stage_3\video_4_solution\.DS_Store" />
+    <None Include="stage_3\video_5_solution\.DS_Store" />
+    <None Include="stage_3\video_6_solution\.DS_Store" />
+    <None Include="stage_3\video_7_solution\.DS_Store" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="stage_1\starting_code\Exceptions.cs" />
+    <Compile Include="stage_1\starting_code\Game.cs" />
+    <Compile Include="stage_1\starting_code\Invader.cs" />
+    <Compile Include="stage_1\starting_code\Level.cs" />
+    <Compile Include="stage_1\starting_code\Map.cs" />
+    <Compile Include="stage_1\starting_code\MapLocation.cs" />
+    <Compile Include="stage_1\starting_code\Path.cs" />
+    <Compile Include="stage_1\starting_code\Point.cs" />
+    <Compile Include="stage_1\starting_code\Tower.cs" />
+    <Compile Include="stage_1\video_3_solution\Exceptions.cs" />
+    <Compile Include="stage_1\video_3_solution\Game.cs" />
+    <Compile Include="stage_1\video_3_solution\Invader.cs" />
+    <Compile Include="stage_1\video_3_solution\Level.cs" />
+    <Compile Include="stage_1\video_3_solution\Map.cs" />
+    <Compile Include="stage_1\video_3_solution\MapLocation.cs" />
+    <Compile Include="stage_1\video_3_solution\Path.cs" />
+    <Compile Include="stage_1\video_3_solution\Point.cs" />
+    <Compile Include="stage_1\video_3_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_1\video_3_solution\Tower.cs" />
+    <Compile Include="stage_1\video_5_solution\Exceptions.cs" />
+    <Compile Include="stage_1\video_5_solution\FastInvader.cs" />
+    <Compile Include="stage_1\video_5_solution\Game.cs" />
+    <Compile Include="stage_1\video_5_solution\Invader.cs" />
+    <Compile Include="stage_1\video_5_solution\Level.cs" />
+    <Compile Include="stage_1\video_5_solution\Map.cs" />
+    <Compile Include="stage_1\video_5_solution\MapLocation.cs" />
+    <Compile Include="stage_1\video_5_solution\Path.cs" />
+    <Compile Include="stage_1\video_5_solution\Point.cs" />
+    <Compile Include="stage_1\video_5_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_1\video_5_solution\Tower.cs" />
+    <Compile Include="stage_1\video_6_solution\Exceptions.cs" />
+    <Compile Include="stage_1\video_6_solution\FastInvader.cs" />
+    <Compile Include="stage_1\video_6_solution\Game.cs" />
+    <Compile Include="stage_1\video_6_solution\Invader.cs" />
+    <Compile Include="stage_1\video_6_solution\Level.cs" />
+    <Compile Include="stage_1\video_6_solution\LongRangeTower.cs" />
+    <Compile Include="stage_1\video_6_solution\Map.cs" />
+    <Compile Include="stage_1\video_6_solution\MapLocation.cs" />
+    <Compile Include="stage_1\video_6_solution\Path.cs" />
+    <Compile Include="stage_1\video_6_solution\Point.cs" />
+    <Compile Include="stage_1\video_6_solution\PowerfulTower.cs" />
+    <Compile Include="stage_1\video_6_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_1\video_6_solution\SniperTower.cs" />
+    <Compile Include="stage_1\video_6_solution\StrongInvader.cs" />
+    <Compile Include="stage_1\video_6_solution\Tower.cs" />
+    <Compile Include="stage_2\video_2_solution\Exceptions.cs" />
+    <Compile Include="stage_2\video_2_solution\FastInvader.cs" />
+    <Compile Include="stage_2\video_2_solution\Game.cs" />
+    <Compile Include="stage_2\video_2_solution\Invader.cs" />
+    <Compile Include="stage_2\video_2_solution\Level.cs" />
+    <Compile Include="stage_2\video_2_solution\LongRangeTower.cs" />
+    <Compile Include="stage_2\video_2_solution\Map.cs" />
+    <Compile Include="stage_2\video_2_solution\MapLocation.cs" />
+    <Compile Include="stage_2\video_2_solution\Path.cs" />
+    <Compile Include="stage_2\video_2_solution\Point.cs" />
+    <Compile Include="stage_2\video_2_solution\PowerfulTower.cs" />
+    <Compile Include="stage_2\video_2_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_2\video_2_solution\SniperTower.cs" />
+    <Compile Include="stage_2\video_2_solution\StrongInvader.cs" />
+    <Compile Include="stage_2\video_2_solution\Tower.cs" />
+    <Compile Include="stage_2\video_3_solution\Exceptions.cs" />
+    <Compile Include="stage_2\video_3_solution\FastInvader.cs" />
+    <Compile Include="stage_2\video_3_solution\Game.cs" />
+    <Compile Include="stage_2\video_3_solution\Invader.cs" />
+    <Compile Include="stage_2\video_3_solution\Level.cs" />
+    <Compile Include="stage_2\video_3_solution\LongRangeTower.cs" />
+    <Compile Include="stage_2\video_3_solution\Map.cs" />
+    <Compile Include="stage_2\video_3_solution\MapLocation.cs" />
+    <Compile Include="stage_2\video_3_solution\Path.cs" />
+    <Compile Include="stage_2\video_3_solution\Point.cs" />
+    <Compile Include="stage_2\video_3_solution\PowerfulTower.cs" />
+    <Compile Include="stage_2\video_3_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_2\video_3_solution\SniperTower.cs" />
+    <Compile Include="stage_2\video_3_solution\StrongInvader.cs" />
+    <Compile Include="stage_2\video_3_solution\Tower.cs" />
+    <Compile Include="stage_2\video_4_solution\Exceptions.cs" />
+    <Compile Include="stage_2\video_4_solution\FastInvader.cs" />
+    <Compile Include="stage_2\video_4_solution\Game.cs" />
+    <Compile Include="stage_2\video_4_solution\Invader.cs" />
+    <Compile Include="stage_2\video_4_solution\Level.cs" />
+    <Compile Include="stage_2\video_4_solution\LongRangeTower.cs" />
+    <Compile Include="stage_2\video_4_solution\Map.cs" />
+    <Compile Include="stage_2\video_4_solution\MapLocation.cs" />
+    <Compile Include="stage_2\video_4_solution\Path.cs" />
+    <Compile Include="stage_2\video_4_solution\Point.cs" />
+    <Compile Include="stage_2\video_4_solution\PowerfulTower.cs" />
+    <Compile Include="stage_2\video_4_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_2\video_4_solution\SniperTower.cs" />
+    <Compile Include="stage_2\video_4_solution\StrongInvader.cs" />
+    <Compile Include="stage_2\video_4_solution\Tower.cs" />
+    <Compile Include="stage_2\video_5_solution\Exceptions.cs" />
+    <Compile Include="stage_2\video_5_solution\FastInvader.cs" />
+    <Compile Include="stage_2\video_5_solution\Game.cs" />
+    <Compile Include="stage_2\video_5_solution\Invader.cs" />
+    <Compile Include="stage_2\video_5_solution\Level.cs" />
+    <Compile Include="stage_2\video_5_solution\LongRangeTower.cs" />
+    <Compile Include="stage_2\video_5_solution\Map.cs" />
+    <Compile Include="stage_2\video_5_solution\MapLocation.cs" />
+    <Compile Include="stage_2\video_5_solution\Path.cs" />
+    <Compile Include="stage_2\video_5_solution\Point.cs" />
+    <Compile Include="stage_2\video_5_solution\PowerfulTower.cs" />
+    <Compile Include="stage_2\video_5_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_2\video_5_solution\SniperTower.cs" />
+    <Compile Include="stage_2\video_5_solution\StrongInvader.cs" />
+    <Compile Include="stage_2\video_5_solution\Tower.cs" />
+    <Compile Include="stage_3\video_2_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_2_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_2_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_2_solution\Game.cs" />
+    <Compile Include="stage_3\video_2_solution\Invader.cs" />
+    <Compile Include="stage_3\video_2_solution\Level.cs" />
+    <Compile Include="stage_3\video_2_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_2_solution\Map.cs" />
+    <Compile Include="stage_3\video_2_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_2_solution\Path.cs" />
+    <Compile Include="stage_3\video_2_solution\Point.cs" />
+    <Compile Include="stage_3\video_2_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_2_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_2_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_2_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_2_solution\Tower.cs" />
+    <Compile Include="stage_3\video_3_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_3_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_3_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_3_solution\Game.cs" />
+    <Compile Include="stage_3\video_3_solution\Invader.cs" />
+    <Compile Include="stage_3\video_3_solution\Level.cs" />
+    <Compile Include="stage_3\video_3_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_3_solution\Map.cs" />
+    <Compile Include="stage_3\video_3_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_3_solution\Path.cs" />
+    <Compile Include="stage_3\video_3_solution\Point.cs" />
+    <Compile Include="stage_3\video_3_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_3_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_3_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_3_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_3_solution\Tower.cs" />
+    <Compile Include="stage_3\video_4_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_4_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_4_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_4_solution\Game.cs" />
+    <Compile Include="stage_3\video_4_solution\IInvader.cs" />
+    <Compile Include="stage_3\video_4_solution\Invader.cs" />
+    <Compile Include="stage_3\video_4_solution\Level.cs" />
+    <Compile Include="stage_3\video_4_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_4_solution\Map.cs" />
+    <Compile Include="stage_3\video_4_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_4_solution\Path.cs" />
+    <Compile Include="stage_3\video_4_solution\Point.cs" />
+    <Compile Include="stage_3\video_4_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_4_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_4_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_4_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_4_solution\Tower.cs" />
+    <Compile Include="stage_3\video_5_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_5_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_5_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_5_solution\Game.cs" />
+    <Compile Include="stage_3\video_5_solution\IInvader.cs" />
+    <Compile Include="stage_3\video_5_solution\Invader.cs" />
+    <Compile Include="stage_3\video_5_solution\Level.cs" />
+    <Compile Include="stage_3\video_5_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_5_solution\Map.cs" />
+    <Compile Include="stage_3\video_5_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_5_solution\Path.cs" />
+    <Compile Include="stage_3\video_5_solution\Point.cs" />
+    <Compile Include="stage_3\video_5_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_5_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_5_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_5_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_5_solution\Tower.cs" />
+    <Compile Include="stage_3\video_6_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_6_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\Game.cs" />
+    <Compile Include="stage_3\video_6_solution\IInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\Invader.cs" />
+    <Compile Include="stage_3\video_6_solution\Level.cs" />
+    <Compile Include="stage_3\video_6_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_6_solution\Map.cs" />
+    <Compile Include="stage_3\video_6_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_6_solution\Path.cs" />
+    <Compile Include="stage_3\video_6_solution\Point.cs" />
+    <Compile Include="stage_3\video_6_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_6_solution\ResurrectingInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_6_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_6_solution\Tower.cs" />
+    <Compile Include="stage_3\video_7_solution\BasicInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\Exceptions.cs" />
+    <Compile Include="stage_3\video_7_solution\FastInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\Game.cs" />
+    <Compile Include="stage_3\video_7_solution\IInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\Invader.cs" />
+    <Compile Include="stage_3\video_7_solution\Level.cs" />
+    <Compile Include="stage_3\video_7_solution\LongRangeTower.cs" />
+    <Compile Include="stage_3\video_7_solution\Map.cs" />
+    <Compile Include="stage_3\video_7_solution\MapLocation.cs" />
+    <Compile Include="stage_3\video_7_solution\Path.cs" />
+    <Compile Include="stage_3\video_7_solution\Point.cs" />
+    <Compile Include="stage_3\video_7_solution\PowerfulTower.cs" />
+    <Compile Include="stage_3\video_7_solution\Random.cs" />
+    <Compile Include="stage_3\video_7_solution\ResurrectingInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\ShieldedInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\SniperTower.cs" />
+    <Compile Include="stage_3\video_7_solution\StrongInvader.cs" />
+    <Compile Include="stage_3\video_7_solution\Tower.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="stage_1\video_3_solution\bin\Debug\ConsoleApplication.vshost.exe" />
+    <Content Include="stage_1\video_3_solution\cSharpIntermediate.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="stage_1\video_3_solution\.vs\cSharpIntermediate\v14\" />
+    <Folder Include="stage_1\video_3_solution\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
