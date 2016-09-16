@@ -1,7 +1,9 @@
 ﻿namespace TreehouseDefense
 {
-    class ShieldedInvader : Invader
+    class FastInvader : Invader
     {
-
+        public FastInvader(Path path) : base(path)
+        {
+        }
     }
 }
